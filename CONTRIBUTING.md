@@ -7,12 +7,10 @@ and their repositories please see the [README](README.md).
 
 ### Do you want to upgrade a vendored linter?
 
-Please send a PR. We use [GVT](https://github.com/FiloSottile/gvt). It should be as simple as:
+Please send a PR. We use [Go Modules](https://github.com/golang/go/wiki/Modules). It should be as simple as:
 
 ```
-go get github.com/FiloSottile/gvt
-cd _linters
-gvt update <linter>
+GO111MODULE=on go get -u <linter>
 git add <paths>
 ```
 

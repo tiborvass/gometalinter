@@ -202,6 +202,7 @@ func validateLinters(linters map[string]*Linter, config *Config) error {
 
 const vetPattern = `^(?:vet:.*?\.go:\s+(?P<path>.*?\.go):(?P<line>\d+):(?P<col>\d+):\s*(?P<message>.*))|((?P<path>.*?\.go):(?P<line>\d+):(?P<col>\d+):\s*(?P<message>.*))|(?:(?P<path>.*?\.go):(?P<line>\d+):\s*(?P<message>.*))$`
 
+//go:generate go run generate.go
 var defaultLinters = map[string]LinterConfig{
 	"maligned": {
 		Command:           "maligned",
