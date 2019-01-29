@@ -31,7 +31,7 @@ require (
 	github.com/stripe/safesql v0.0.0-20160304061837-452e37ed7944
 	github.com/tsenart/deadcode v0.0.0-20160724212837-210d2dc333e9
 	github.com/walle/lll v0.0.0-20160702150637-8b13b3fbf731
-	golang.org/x/tools v0.0.0-20190117194123-b4b6fe2cb829
+	golang.org/x/tools v0.0.0-20190128232029-0a99049195af
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20171010053543-63abe20a23e2
 	gotest.tools v2.2.0+incompatible
 	honnef.co/go/tools v0.0.0-20190109154334-5bcec433c8ea
